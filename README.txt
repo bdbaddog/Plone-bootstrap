@@ -1,6 +1,4 @@
-This is a work in progress in response to this email by Alex Limi ( on behalf of Martin Aspeli)
-
-::
+This is a work in progress in response to this email by Alex Limi ( on behalf of Martin Aspeli)::
      
  Sending this on behalf of Martin, since he has to leave for his flight back
  to the UK:
