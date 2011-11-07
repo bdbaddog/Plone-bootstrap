@@ -7,7 +7,7 @@ def adjust_options(options, args):
     args.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),'.plone_python'))
 
     options.no_site_packages = True
-    options.verbose = 1
+#    options.verbose = 1
 
 
 def after_install(options, home_dir):
