@@ -111,6 +111,8 @@ else:
             ),
         ) == 0
 
+import pdb pdb.set_trace()
+
 ws.add_entry(tmpeggs)
 ws.require('zc.buildout' + VERSION)
 import zc.buildout.buildout
