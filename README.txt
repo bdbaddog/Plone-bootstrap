@@ -1,3 +1,6 @@
+How to run
+==========
+
 You need to run the create-plone-bootstrap.py with a python which has virtualenv and setuptools already installed.
 
 It generates plone-try-bootstrap.py, which you can run with a python with neither virtualenv or setuptools::
@@ -20,6 +23,10 @@ It generates plone-try-bootstrap.py, which you can run with a python with neithe
  Installed /Users/bdbaddog/devel/plone/sprint/.plone_python/lib/python2.7/site-packages/zc.buildout-1.5.2-py2.7.egg
  Processing dependencies for zc.buildout
  Finished processing dependencies for zc.buildout
+
+
+Why
+===
 
 This is a work in progress in response to this email by Alex Limi ( on behalf of Martin Aspeli)::
      
