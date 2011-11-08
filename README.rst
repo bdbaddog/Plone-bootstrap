@@ -7,22 +7,10 @@ It generates plone-try-bootstrap.py, which you can run with a python with neithe
  python_with_tools create-plone-bootstrap.py
  python_without_tools plone-try-boostrap.py
 
- New python executable in /Users/bdbaddog/devel/plone/sprint/.plone_python/bin/python
- Installing distribute.....................................................................................................................................................................................done.
- install_dir /Users/bdbaddog/devel/plone/sprint/.plone_python/lib/python2.7/site-packages/
- Searching for zc.buildout
- Reading http://pypi.python.org/simple/zc.buildout/
- Reading http://buildout.org
- Best match: zc.buildout 1.5.2
- Downloading http://pypi.python.org/packages/source/z/zc.buildout/zc.buildout-1.5.2.tar.gz#md5=87f7b3f8d13926c806242fd5f6fe36f7
- Processing zc.buildout-1.5.2.tar.gz
- Running zc.buildout-1.5.2/setup.py -q bdist_egg --dist-dir /var/folders/XG/XGgG-EP8G5i6vXYNPGLlTU+++TI/-Tmp-/easy_install-wRolnR/zc.buildout-1.5.2/egg-dist-tmp-5B_mu_
- Adding zc.buildout 1.5.2 to easy-install.pth file
- Installing buildout script to /Users/bdbaddog/devel/plone/sprint/.plone_python/bin
+Currently it's hardcoded to use buildout 1.4.4.
+It's also installs PIL 1.1.7 into the virtualenv.
 
- Installed /Users/bdbaddog/devel/plone/sprint/.plone_python/lib/python2.7/site-packages/zc.buildout-1.5.2-py2.7.egg
- Processing dependencies for zc.buildout
- Finished processing dependencies for zc.buildout
+The virtualenv is built into .plone_python, and the buildout get's built into bin.
 
 
 Why
