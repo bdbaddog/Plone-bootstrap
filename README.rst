@@ -7,11 +7,15 @@ It generates plone-try-bootstrap.py, which you can run with a python with neithe
  python_with_tools create-plone-bootstrap.py
  python_without_tools plone-try-boostrap.py
 
+There's an example of this flow in *doit.sh* (with a path to a "virgin" python with no setuptool
+or virtualenv installed).
+
 Currently it's hardcoded to use buildout 1.4.4.
-It's also installs PIL 1.1.7 into the virtualenv.
 
 The virtualenv is built into .plone_python, and the buildout get's built into bin.
 
+I've renamed the bootstrap.py's -v (or --version) flag (which specifies which version of
+zc.buildout to install to -b and --buildout_version (which defaults to 1.4.4 for the time being)
 
 Why
 ===
