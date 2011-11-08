@@ -4,10 +4,11 @@ How to run
 You need to run the create-plone-bootstrap.py with a python which has virtualenv and setuptools already installed.
 
 It generates plone-try-bootstrap.py, which you can run with a python with neither virtualenv or setuptools::
+
  python_with_tools create-plone-bootstrap.py
  python_without_tools plone-try-boostrap.py
 
-There's an example of this flow in *doit.sh* (with a path to a "virgin" python with no setuptool
+There's an example of this flow in **doit.sh** (with a path to a "virgin" python with no setuptool
 or virtualenv installed).
 
 Currently it's hardcoded to use buildout 1.4.4.
