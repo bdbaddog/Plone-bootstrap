@@ -15,12 +15,18 @@ Currently it's hardcoded to use buildout 1.4.4.
 
 The virtualenv is built into .plone_python, and the buildout get's built into bin.
 
-I've renamed the bootstrap.py's -v (or --version) flag (which specifies which version of
-zc.buildout to install to -b and --buildout_version (which defaults to 1.4.4 for the time being)
+Features
+========
 
-It now will run *buildout bootstrap* after it installs it.
-It also doesn't re-virtualenv if you're already in a virtualenv
-It checks for python < 2.6 and exits
+* runs *buildout bootstrap* after it installs it.
+* doesn't re-virtualenv if you're already in a virtualenv
+* checks for python < 2.6 and exits
+
+Changes from current bootstrap.py
+=================================
+* renamed the bootstrap.py's -v (or --version) flag (which specifies which version of zc.buildout to install to -b and --buildout_version (which defaults to 1.4.4 for the time being)
+
+
 
 Why
 ===
